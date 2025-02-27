@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Eduvos coding club-2</title>
+     <!--CSS Selectors are in use-->
+     <style>
+        /*universal selector*/
+        * {
+            background-color: #501b1d;
+            text-align: center;
+        }
+        /*type selector*/
+        span {
+            background-color: rgb(145, 26, 99);
+        }
+        /*id selector*/
+        .div2 {
+            color: rgb(254, 0, 174);
+            text-align: center;
+            font-size: 10px;
+            font-weight: bold;
+        }
+        /*attribute selector*/
+        div[style] {
+            text-align: center;
+            color: rgb(224, 3, 220);
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: -20px;
+        }
+        /*combinator selector*/
+        div>p {
+            color: rgb(128, 0, 105);
+            font-size: 32px;
+            font-weight: bold;
+            margin: 0px;
+            text-align: center;
+        }
+        /*class selector*/
+        .box {
+            background-color: rgb(128, 0, 115);
+            width: 300px;
+            height: 100px;
+            margin: auto;
+            font-size: 30px;
+            text-align: center;
+        }
+        /*pseudo selector*/
+        .box:hover {
+            background-colour: rgb(129, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Learn all you need to about our Coding Club</h1>
+    <p>
+        We have exciting tasks and activities which are designed to educate and enhance our members with knowledge on how to navigate digital spheres. We incorporate various innovative coding languages help build the foundation needed to develop software and websites from their own imagination.
+    </p>
+    <br>
+    <span>The future at your fingertips. Join us in leading the 4IR in South Africa</span>
+    <br><br>
+    <div id="div1">
+        AND THERE'S SO MUCH MORE!!!
+    </div>
+    <br>
+    <div class="div2">
+        We host astonishing hackathons for young aspiring developers and fellow code enthusiests. This allows them to sharpen their mind and talents by competing in exciting activities such as web design and software development.
+    </div>
+    <br>
+    <div style="color:rgb(128, 0, 122)">
+        Join us here at Eduvos Midrand Campus Coding Club
+    </div>
+    <br>
+    <div style="text-align:center;">
+        AND SO IT BEGINS!!!
+        <p>Euvos inspired innovation brings forth amazing and entertaining projects that leave life-lasting impressions on our memebers.</p>
+    </div>
+    <br>
+    <p>EDUVOS CODING CLUB:</p>
+    <div class="box">
+        What are you waiting for?
+        Join us NOW!!!
+    </div>
+
+
+
+</html>
+
+
+
+
+
+

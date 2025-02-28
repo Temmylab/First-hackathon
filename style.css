@@ -1,0 +1,150 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    min-height: 100vh; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ text-align: center;
+}
+
+.storage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactform {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Inputbox {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.Inputbox input, 
+.Inputbox textarea {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s ease-in-out;
+}
+
+.Inputbox span {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    font-size: 16px;
+    color: #999;
+    pointer-events: none;
+    transition: 0.3s ease-in-out;
+    background: white;
+    padding: 0 5px;
+}
+
+.Inputbox input:focus ~ span, 
+.Inputbox input:valid ~ span,
+.Inputbox textarea:focus ~ span, 
+.Inputbox textarea:valid ~ span {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+
+.Inputbox textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+
+.Inputbox input[type="submit"] {
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.Inputbox input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+
+.social-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-container a {
+    margin: 0 10px;
+    font-size: 24px;
+    color: #333;
+}
+.social-container a:hover {
+color: blue;
+}
+h4{ 
+    text-align: center;
+}
+body{
+     background-color: #2c786c;
+     color: #1d1716;
+}
+.icon {
+    width: 50px; 
+    height: 50px;
+    background-color: #007bff;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; 
+    font-size: 24px;
+    margin: 10px auto; 
+    transition: 0.3s ease-in-out;
+}
+
+
+.icon:hover {
+    background-color: #0056b3;
+}
+@keyframes gradientAnimation {
+    0% { background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); }
+    50% { background: linear-gradient(to right, #868f96 0%, #596164 100%);}
+    100% { background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%); }
+}
+
+body {
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s infinite alternate;
+}
+
+
+
+
+
+
+
+
+
+
+
+

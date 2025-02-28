@@ -173,6 +173,11 @@ a.active, a:hover {
 	}
 	
 }
+@keyframes gradientAnimation {
+    0% { background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%); }
+    50% { background: linear-gradient(to right, #868f96 0%, #596164 100%);}
+    100% { background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%); }
+}
 
 
 

@@ -3,12 +3,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<link rel="stylesheet" href="Code core.css">
+	
+	<link rel="icon" type="image/png" href="CODING CLUB.jpg">
+
     <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style></style>
+<script>
+		const navbar = document.getElementById('navbar');
+		let lastScrollTop = 0;
+		
+		window.addEventListener('scroll', function() {
+		const currentScrollTop = window.scrollY;
+		if (currentScrollTop > lastScrollTop && currentScrollTop > 100) {
+			navbat.classList.add('hide');
+		} else if (currentScrollTop < lastScrollTop || currentScrollTop < 100) {
+			navbar.classList.remove('hide');
+		}
+			
+		lastScrollTop = currentScrollTop;
+		});
+	
+	</script>
+	
 
 </head>
+<body background="">
+
+<!--The top navigation bar -->
+
+<nav class="navbar" id="narbar">
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+		<i class="fas fa-bars"></i>
+	</label>
+		<label class="logo">Coding Club</label>
+	<ul>
+		<li><a href="Home page.html"> Home </a></li>
+		<li><a href="Event page.html"> Event </a></li>
+		<li><a href="Resource center.html"> Resource center </a></li>
+		<li><a href= "About page.html"> About </a></li>
+				<li><a href= "index1.html"> Contact Us </a></li>
+
+
+	
+		
+	</ul>
+</nav>
+
+
+
 <body>
 <section class="contact">
         <div class="content">
@@ -78,6 +124,21 @@
 </div>
 
 
-</body>
+<nav class="navbar2" id="navbar">
+<img src="CODING CLUB2.jpg" alt="Coding club logo" style="height:60px;width:60px;" >
+
+	<input type="checkbox" id="check">
+	<label for="check" class="checkbtn">
+		<i class="fas fa-bars"></i>
+	</label>
+		<label class="logo2" color: white font="Constantia">Have questions? Email us at codingclub404@gmail.com </label>
+	<ul>
+		<li><a href="https://www.tiktok.com/@codingclub404" target="_blank"> Tiktok </a></li>
+		<li><a href="https://www.linkedin.com/in/coding-club-3841b1349" target="_blank"> LinkedIn </a></li>
+		<li><a href="https://github.com/CODINGCLUB404" target="_blank"> Github </a></li>
+		<li><a href= "https://www.instagram.com/codingclub404?igsh=MTB4amQzNWxnZDgzeg== " target="_blank"> Instagram </a></li>
+		<li><a href= "New references page.html"> References </a></li>
+	</ul>
+</nav>
 </body>
 </html>
